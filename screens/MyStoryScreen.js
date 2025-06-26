@@ -1,7 +1,6 @@
-// MyStoryScreen.jsx
 import React, { useState, useCallback } from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
-import YoutubePlayer from 'react-native-youtube-iframe';   // ⬅️ nuevo
+import YoutubePlayer from 'react-native-youtube-iframe';   
 
 const { width, height } = Dimensions.get('window');
 
